@@ -1,0 +1,29 @@
+{
+  "name": "uz-reels-templates",
+  "version": "0.1.0",
+  "description": "Open-source Remotion templates for Uzbek-language Reels, Shorts and TikTok videos",
+  "license": "MIT",
+  "private": false,
+  "keywords": ["remotion", "reels", "shorts", "tiktok", "uzbek", "ozbek", "video-templates"],
+  "scripts": {
+    "dev": "remotion studio",
+    "render:yangilik": "remotion render YangilikReel out/yangilik.mp4",
+    "render:fakt": "remotion render FaktKarta out/fakt.mp4",
+    "render:savol": "remotion render SavolJavob out/savol.mp4",
+    "still": "remotion still YangilikReel out/preview.png --frame=60",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "@remotion/google-fonts": "4.0.242",
+    "@remotion/zod-types": "4.0.242",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.242",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
